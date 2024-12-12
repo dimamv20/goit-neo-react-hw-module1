@@ -12,7 +12,12 @@ const TransactionHistory = ({ items }) => {
       </thead>
       <tbody>
         {items.map(({ id, type, amount, currency }) => (
-          <tr key={id}>
+          <tr
+            key={id}
+            style={{
+              backgroundColor: type === "payment" || type === "withdrawal" ? "lightgray" : "white",
+            }}
+          >
             <td>{type}</td>
             <td>{amount}</td>
             <td>{currency}</td>

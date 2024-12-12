@@ -1,0 +1,76 @@
+.card img{
+  background-color: rgb(79, 77, 77);
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.list-of-stats{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(79, 77, 77);
+}
+.list-of-stats li{
+  display:flex;
+  flex-direction: column;
+  min-width: 145px;
+  border: 1px solid rgb(79, 77, 77);
+}
+.name-stat{
+  font-size: 25px;
+}
+.stats{
+  font-size: 25px;
+}
+.card{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: auto 0;
+}
+
+p, span{
+  margin: 0 auto;
+}
+
+.card-of-friends{
+  padding: 0 ;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.name-of-friends{
+  padding: 5px 0;
+  font-size: 20px;
+}
+.card-for-friends{
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.status{
+  font-size: 15px;
+  
+}
+
+
+.transaction-history{
+
+  text-align: center;
+}
+table, td{
+  border: 1px solid black;
+}
+
+thead{
+  padding: 10px 10px;
+}
+.titles{
+  color: #fff;
+  background-color: #000;
+  padding: 10px 10px;
+}
